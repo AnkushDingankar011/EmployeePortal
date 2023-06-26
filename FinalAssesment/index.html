@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Employee Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="employe_container_wrap">
+        <!-- //navbar -->
+        <nav>
+            <div class="logo">Employee Portal</div>
+          </nav>
+
+          <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </label>
+
+        <div class="Employee_details">
+        <form>
+            <table class="login_form">
+                <tr>
+                    <th><h3>Employee Information</h3></th>
+                </tr>
+                <tr>
+                    <th class="head">Employee_ID</th>
+                    <td><input type="text" placeholder="Enter Employee_ID" class="inputId" name="employee_id" id="employee_id" required></td>
+                    <td><span id="error" style="color: red;"></span></td>
+                </tr>
+                <tr>
+                    <th class="head">Name</th>
+                    <td><input type="text" placeholder="Enter Name" class="inputId" name="name"  id="name" required></td>
+                    <td><span id="nameerror"></span></td>
+                </tr>
+                <tr>
+                    <th class="head">Age</th>
+                    <td> <input type="text" placeholder="Enter Age" class="inputId" name="Age" id="Age" required></td>
+                    <td><span id="Ageerror"></span></td>
+                </tr>
+                <tr>
+                    <th class="head">Gender</th>
+                    <td><select name="gender" id="gender_id" required>
+                        <option  selected disabled value="">Select One</option>
+                        <option value="male">Male</option>
+                        <option value="female">female</option>
+                        <option value="other">Other</option>
+                    </select></td>
+                    <td><span id="gendererror"></span></td>
+                </tr>
+                <tr>
+                    <td><button class="button1" id="sub_btn">ADD</button></td>
+                </tr>
+
+            </table>
+        </form>
+            <h3>Employee Records</h3>
+              <table class="styled-table"  id="storelist">
+                    <thead>
+                        <tr>
+                            <th> Employee_Id</th>
+                            <th>Name</th>
+                            <th>Age</th>
+                            <th>gender</th>
+                            <th>Action </th>
+                        </tr>
+                    </thead>
+                    <tbody id="table_data">
+
+                    </tbody>
+              </table>
+        </div>
+
+    </div>    
+    
+</body>
+<script src="main.js"></script>
+</html>

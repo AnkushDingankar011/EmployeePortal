@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;1,100;1,200;1,300;1,700&family=Roboto:wght@100;400;900&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+  }
+  nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    height: 80px;
+    background-color: #3e65da;
+    padding: 0 5%;
+  }
+  nav .logo {
+    float: left;
+    width: 40%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bolder;
+    
+  }
+
+
+  @media screen and (max-width: 768px) {
+    nav .logo {
+      float: none;
+      width: auto;
+      justify-content: center;
+    }
+  }
+.Employee_details{
+    margin-top: 7rem;
+}
+
+/* //table css */
+
+.styled-table {
+    border-collapse: collapse;
+    margin: 45px 30px;
+    font-size: 0.9em;
+    width: 75%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    margin-left: 10rem;
+}
+
+.styled-table thead tr {
+    background-color: #3e65da;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid  #3e65da;
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    background-color: #3e65da;
+}
+
+
+.login_form{
+   margin-left: 30rem;
+}
+
+span{
+    color: red;
+}
+
+h3{
+  text-align: center;
+  font-size: 1.5em;
+  color:  #3e65da;
+  font-weight:bolder;
+}
+
+.h1{
+    margin: 30px;
+}
+
+
+.inputId{
+    padding: 6px;
+    border: 2px solid #e5e5e5;
+    margin-left: 10px;
+}
+
+select {
+    width: 100%;
+    padding: 6px;
+    border: 2px solid #e5e5e5;
+    outline: none;
+}
+
+
+.inputId:focus{
+    outline: none;
+}
+
+.head{
+    font-size: 18px;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button1{
+
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #3e65da;
+    color: white;
+    font-weight:700;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    width: 100%;
+    margin-top: 13px;
+}
+
+.button1:hover {
+    background-color:rgba(0, 0, 139, 0.573);
+    cursor: pointer;
+}
+
+.button2{
+  padding: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color:  rgb(212, 226, 80);
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  font-weight: 400;
+  font-size: 15px;
+
+}
+
+.button3{
+  padding: 8px;
+  cursor: pointer;
+  color: #ffffff;
+  background-color: red;
+  font-family: 'Roboto', sans-serif;
+  border: none;
+  font-size: 15px;
+}
+
+
+
+
+
+  
+
+  
+
+
